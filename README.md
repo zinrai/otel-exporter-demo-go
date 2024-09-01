@@ -54,7 +54,7 @@ otelcol version 0.108.1
 ```
 
 ```
-$ cat << EOF config.yaml
+$ cat << EOF > config.yaml
 receivers:
   otlp:
     protocols:
